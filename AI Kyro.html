@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#f7f8f4" />
+<meta name="description" content="AI KYRO is a metacognitive classroom that helps learners think, practise, reflect and retain — instead of simply collecting AI-generated answers." />
+<title>AI KYRO — Make learning active again</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#17241f;--muted:#65736c;--green:#236b50;--lime:#d9f36a;--paper:#f7f8f4;--line:#e2e8df;--white:#fff;--soft:#edf3eb;--orange:#f4a261;--shadow:0 24px 70px rgba(28,55,42,.11)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.6}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-.045em;line-height:1.08}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 48px));margin:auto}.nav{height:82px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;font-family:Manrope;font-weight:800;font-size:20px;letter-spacing:-.05em}.brand-mark{width:34px;height:34px;border-radius:11px;background:var(--green);display:grid;place-items:center;color:var(--lime);font-size:19px}.navlinks{display:flex;gap:32px;color:#52625a;font-size:14px;font-weight:600}.navlinks a:hover{color:var(--green)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:999px;padding:13px 21px;background:var(--green);color:white;font-weight:700;font-size:14px;transition:.2s;cursor:pointer}.nav-cta:hover,.btn:hover{background:#174d39;transform:translateY(-2px)}.hero{padding:78px 0 92px;display:grid;grid-template-columns:1.04fr .96fr;gap:55px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;text-transform:uppercase;letter-spacing:.13em;font-size:11px;font-weight:700;color:var(--green);margin-bottom:22px}.eyebrow:before{content:'';width:24px;height:2px;background:var(--green)}h1{font-size:clamp(46px,6vw,76px);max-width:650px;margin-bottom:24px}h1 em{font-style:normal;color:var(--green)}.hero-copy{font-size:18px;color:var(--muted);max-width:550px;line-height:1.7;margin-bottom:30px}.hero-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.btn.secondary{background:transparent;color:var(--ink);border:1px solid #cbd5cc}.btn.secondary:hover{background:white}.micro{font-size:12px;color:var(--muted);margin-top:17px}.visual{position:relative;min-height:480px;display:grid;place-items:center}.orb{position:absolute;width:390px;height:390px;border-radius:50%;background:radial-gradient(circle at 38% 30%,#e7f5b0,#d5e9d8 52%,#b6d4c3);filter:blur(.2px)}.visual-card{position:relative;width:min(430px,100%);background:rgba(255,255,255,.9);border:1px solid rgba(255,255,255,.8);border-radius:24px;box-shadow:var(--shadow);padding:20px;transform:rotate(2deg)}.mock-top{display:flex;justify-content:space-between;align-items:center;padding-bottom:15px;border-bottom:1px solid var(--line);font-size:12px;font-weight:700}.live{color:var(--green);display:flex;gap:7px;align-items:center}.live:before{content:'';width:7px;height:7px;border-radius:50%;background:#5ebd83}.mock-title{font-family:Manrope;font-size:23px;font-weight:800;letter-spacing:-.04em;margin:18px 0 5px}.mock-sub{font-size:12px;color:var(--muted);margin-bottom:18px}.prompt{background:#f1f5ed;border-radius:15px;padding:16px;margin-bottom:12px}.prompt small{font-size:10px;letter-spacing:.1em;color:var(--green);font-weight:800}.prompt p{font-size:14px;font-weight:600;margin:8px 0 0}.answer{border:1px solid var(--line);border-radius:14px;padding:13px 14px;font-size:12px;color:#52625a}.answer strong{display:block;color:var(--ink);margin-bottom:4px}.mock-footer{display:flex;justify-content:space-between;align-items:center;margin-top:16px;font-size:11px;color:var(--muted)}.progress{width:115px;height:6px;background:#e6ece4;border-radius:8px;overflow:hidden}.progress span{display:block;width:62%;height:100%;background:var(--green);border-radius:8px}.float-note{position:absolute;background:var(--ink);color:white;padding:13px 16px;border-radius:14px;font-size:12px;box-shadow:var(--shadow)}.float-note b{color:var(--lime);display:block;font-size:15px}.note-one{left:-8px;bottom:65px;transform:rotate(-5deg)}.note-two{right:-12px;top:65px;background:white;color:var(--ink);transform:rotate(5deg)}.note-two b{color:var(--green)}.trust-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:23px 0}.trust-inner{display:flex;justify-content:space-between;align-items:center;gap:24px;color:#69766e;font-size:13px}.trust-inner strong{color:var(--ink);font-size:14px}.section{padding:105px 0}.section-head{max-width:700px;margin-bottom:48px}.section-head h2{font-size:clamp(34px,4vw,52px);margin-bottom:17px}.section-head p{color:var(--muted);font-size:17px}.problem{background:#17241f;color:white}.problem .eyebrow{color:var(--lime)}.problem .eyebrow:before{background:var(--lime)}.problem .section-head p{color:#b6c4bb}.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.problem-card{padding:30px;border-radius:20px;border:1px solid #405148;background:#202f28}.problem-card .num{font-size:12px;color:var(--lime);font-weight:700;letter-spacing:.1em}.problem-card h3{font-size:25px;margin:24px 0 12px}.problem-card p{color:#b6c4bb;margin:0}.statement{margin-top:26px;padding:26px 30px;background:var(--lime);color:var(--ink);border-radius:18px;font-family:Manrope;font-weight:800;font-size:clamp(20px,2.5vw,28px);letter-spacing:-.035em}.audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.audience{padding:27px;background:white;border:1px solid var(--line);border-radius:19px}.icon{width:43px;height:43px;border-radius:13px;background:var(--soft);display:grid;place-items:center;color:var(--green);font-size:20px;margin-bottom:23px}.audience h3{font-size:21px;margin-bottom:10px}.audience p{color:var(--muted);font-size:14px;margin:0}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:step}.step{background:white;border:1px solid var(--line);border-radius:18px;padding:23px;min-height:235px;counter-increment:step}.step:before{content:'0' counter(step);font-family:Manrope;font-weight:800;color:var(--green);font-size:13px}.step h3{font-size:20px;margin:30px 0 10px}.step p{font-size:13px;color:var(--muted);margin:0}.feature-band{background:#eaf1e8}.feature-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}.feature-grid h2{font-size:clamp(34px,4vw,51px)}.feature-grid p{color:var(--muted)}.feature-list{display:grid;gap:13px;margin-top:25px}.feature-list div{display:flex;gap:12px;align-items:flex-start;font-size:14px}.check{width:22px;height:22px;flex:none;background:var(--green);color:white;border-radius:50%;display:grid;place-items:center;font-size:12px}.journey{background:white;border:1px solid #dce5dc;border-radius:22px;padding:25px;box-shadow:0 15px 45px rgba(28,55,42,.07)}.journey-head{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;margin-bottom:22px}.journey-head span{color:var(--green);background:#eaf4e9;border-radius:20px;padding:6px 10px}.journey-row{display:grid;grid-template-columns:40px 1fr auto;gap:13px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}.journey-row:last-child{border:0}.step-icon{width:36px;height:36px;border-radius:12px;background:#edf3eb;display:grid;place-items:center;color:var(--green)}.journey-row b{font-size:13px;display:block}.journey-row small{font-size:11px;color:var(--muted)}.status{font-size:10px;color:var(--green);font-weight:700}.quote{padding:100px 0;text-align:center}.quote blockquote{max-width:850px;margin:0 auto 22px;font-family:Manrope;font-weight:800;font-size:clamp(29px,4.3vw,49px);letter-spacing:-.045em;line-height:1.2}.quote blockquote span{color:var(--green)}.quote p{color:var(--muted);font-size:13px}.faq{background:#edf3eb}.faq-list{max-width:800px}.faq-item{border-bottom:1px solid #d5dfd5}.faq-q{width:100%;background:none;border:0;text-align:left;padding:21px 0;display:flex;justify-content:space-between;gap:20px;font:700 16px 'DM Sans';color:var(--ink);cursor:pointer}.faq-a{display:none;color:var(--muted);font-size:14px;max-width:690px;padding:0 35px 20px 0}.faq-item.open .faq-a{display:block}.faq-item.open .plus{transform:rotate(45deg)}.plus{font-size:23px;color:var(--green);transition:.2s}.closing{padding:85px 0;background:var(--lime);text-align:center}.closing h2{font-size:clamp(36px,5vw,58px);max-width:760px;margin:0 auto 17px}.closing p{color:#45543d;margin-bottom:28px}.closing .btn{background:var(--ink)}footer{padding:30px 0;background:var(--ink);color:#b6c4bb;font-size:12px}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-brand{color:white}.footer-brand .brand-mark{background:var(--lime);color:var(--ink)}
+@media(max-width:850px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:55px 0 65px;gap:20px}.visual{min-height:420px}.problem-grid,.feature-grid{grid-template-columns:1fr}.audience-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.feature-grid{gap:35px}.trust-inner{flex-wrap:wrap;justify-content:center;text-align:center}.trust-inner strong{width:100%}}
+@media(max-width:540px){.wrap{width:min(100% - 32px,1160px)}.nav{height:70px}.nav-cta{padding:10px 14px;font-size:12px}.hero{padding-top:45px}h1{font-size:48px}.hero-copy{font-size:16px}.visual{min-height:365px}.orb{width:300px;height:300px}.visual-card{padding:15px}.note-one{left:-3px;bottom:26px}.note-two{right:-4px;top:26px}.section{padding:72px 0}.audience-grid,.steps{grid-template-columns:1fr}.step{min-height:180px}.step h3{margin-top:20px}.problem-card{padding:23px}.footer-inner{flex-direction:column;text-align:center}}
+
+.team-section{padding:78px 0;background:#fff}
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.team-card{padding:22px;border:1px solid var(--line);border-radius:17px;background:var(--paper)}
+.team-card h3{font-size:17px;letter-spacing:-.025em;margin:0 0 8px}
+.team-card p{font-size:12px;color:var(--muted);margin:0}
+.team-label{display:inline-flex;padding:6px 11px;border-radius:999px;background:#eaf4e9;color:var(--green);font-size:11px;font-weight:800;letter-spacing:.08em;margin-bottom:18px}
+@media(max-width:850px){.team-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:540px){.team-grid{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#top" aria-label="AI KYRO home"><span class="brand-mark">✳</span> AI KYRO</a>
+  <nav class="navlinks" aria-label="Main navigation"><a href="#problem">The challenge</a><a href="#who">Who it's for</a><a href="#how">How it works</a><a href="#features">What it offers</a></nav>
+  <a class="nav-cta" href="#how">Explore the approach <span>↗</span></a>
+</header>
+<main id="top">
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow">A classroom built for real understanding</div>
+    <h1>Don't just get the answer. <em>Learn to think.</em></h1>
+    <p class="hero-copy">AI KYRO is an AI-supported learning space designed to make students active participants again — asking questions, attempting ideas, explaining concepts and building knowledge that lasts.</p>
+    <div class="hero-actions"><a class="btn" href="#how">See how AI KYRO works <span>→</span></a><a class="btn secondary" href="#problem">Why it matters</a></div>
+    <p class="micro">For learners and educators who want AI to support learning — not do the learning for them.</p>
+  </div>
+  <div class="visual" aria-label="Illustration of an interactive learning session">
+    <div class="orb"></div>
+    <div class="visual-card">
+      <div class="mock-top"><span>YOUR LEARNING SPACE</span><span class="live">SESSION ACTIVE</span></div>
+      <div class="mock-title">Let's understand this.</div><div class="mock-sub">A guided conversation, one idea at a time.</div>
+      <div class="prompt"><small>THINK FIRST · YOUR TURN</small><p>Before we reveal the explanation, what do you think happens when the force on an object increases?</p></div>
+      <div class="answer"><strong>Start with your own idea</strong>Try an answer, ask for a hint, or explain your reasoning. Your thinking is part of the lesson.</div>
+      <div class="mock-footer"><span>Concept journey</span><div class="progress"><span></span></div><b>3 / 5</b></div>
+    </div>
+    <div class="float-note note-one"><b>Think → Try → Reflect</b>Learning is an active process.</div>
+    <div class="float-note note-two"><b>Built around you</b>Progress beyond right answers.</div>
+  </div>
+</section>
+<div class="trust-strip"><div class="wrap trust-inner"><strong>A different relationship with AI starts here.</strong><span>Curiosity over shortcuts</span><span>Understanding over memorisation</span><span>Progress over instant answers</span></div></div>
+<section class="section problem" id="problem"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">The educational problem</div><h2>When answers are instant, learning can become passive.</h2><p>AI can explain almost anything in seconds. But when students use it mainly to complete tasks or obtain ready-made answers, they may miss the valuable work of thinking through a problem themselves.</p></div>
+  <div class="problem-grid">
+    <article class="problem-card"><span class="num">01 / THE SHORTCUT</span><h3>Getting an answer isn't the same as understanding it.</h3><p>A polished explanation can feel convincing even when a learner cannot reproduce the reasoning, apply the idea, or explain it in their own words.</p></article>
+    <article class="problem-card"><span class="num">02 / THE MISSING PRACTICE</span><h3>Learning needs effort, feedback and reflection.</h3><p>Students build durable understanding by recalling, attempting, making mistakes, correcting them and connecting ideas — not just by reading a generated response.</p></article>
+  </div>
+  <div class="statement">The goal isn't to remove AI from education. It's to make AI encourage the thinking that education is meant to develop.</div>
+</div></section>
+<section class="section" id="who"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Who AI KYRO is for</div><h2>Designed around the people doing the learning.</h2><p>AI KYRO can support individual learning while giving educators a clearer view of how learners are progressing.</p></div>
+  <div class="audience-grid">
+    <article class="audience"><div class="icon">✎</div><h3>Students & independent learners</h3><p>For learners who want to understand a topic, work through doubts, practise explaining ideas and revisit concepts over time.</p></article>
+    <article class="audience"><div class="icon">▤</div><h3>Teachers & educators</h3><p>For educators looking to encourage participation, identify areas of difficulty and make learning progress easier to discuss.</p></article>
+    <article class="audience"><div class="icon">⌂</div><h3>Schools & institutions</h3><p>For learning communities exploring responsible AI use and ways to keep student reasoning at the centre of education.</p></article>
+  </div>
+</div></section>
+<section class="section feature-band" id="how"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">How it works</div><h2>A learning journey, not an answer machine.</h2><p>AI KYRO structures a topic into a guided experience that asks learners to participate at every stage.</p></div>
+  <div class="steps">
+    <article class="step"><h3>Choose a topic</h3><p>Start with a learning topic or a question. Lessons can be prepared around selected concepts and learning material.</p></article>
+    <article class="step"><h3>Explore together</h3><p>Enter an interactive classroom where ideas are introduced through a guided, conversational experience.</p></article>
+    <article class="step"><h3>Try before you see</h3><p>Respond to prompts, make a guess, ask for a hint and check your understanding instead of only reading answers.</p></article>
+    <article class="step"><h3>Reflect & revisit</h3><p>Review what you know, identify gaps and return to concepts to strengthen recall and retention.</p></article>
+  </div>
+</div></section>
+<section class="section" id="features"><div class="wrap feature-grid">
+  <div><div class="eyebrow">What AI KYRO offers</div><h2>Support for the whole process of learning.</h2><p>AI KYRO combines guided interaction with tools that help learners notice their own progress. The experience is designed to make thinking visible — not to make every task effortless.</p>
+    <div class="feature-list"><div><span class="check">✓</span><span><b>Interactive AI classroom</b><br>Explore topics through a structured learning environment.</span></div><div><span class="check">✓</span><span><b>Hints and think-first prompts</b><br>Attempt an idea before the explanation is revealed.</span></div><div><span class="check">✓</span><span><b>Quick checks and teach-back</b><br>Practise recalling and explaining concepts in your own words.</span></div><div><span class="check">✓</span><span><b>Voice and conversation support</b><br>Engage with the lesson through questions and spoken responses.</span></div><div><span class="check">✓</span><span><b>Progress and revision</b><br>Track stages of understanding and revisit concepts over time.</span></div></div>
+  </div>
+  <div class="journey"><div class="journey-head"><b>AN EXAMPLE LEARNING JOURNEY</b><span>Concept progress</span></div>
+    <div class="journey-row"><div class="step-icon">◎</div><div><b>First exposure</b><small>Meet the idea and its key terms</small></div><span class="status">START</span></div>
+    <div class="journey-row"><div class="step-icon">?</div><div><b>Check understanding</b><small>Try a question and work through a hint</small></div><span class="status">PRACTISE</span></div>
+    <div class="journey-row"><div class="step-icon">↗</div><div><b>Explain it yourself</b><small>Put the concept into your own words</small></div><span class="status">APPLY</span></div>
+    <div class="journey-row"><div class="step-icon">↻</div><div><b>Return and remember</b><small>Revisit the concept to strengthen recall</small></div><span class="status">REVIEW</span></div>
+    <div class="journey-row"><div class="step-icon">✦</div><div><b>Build mastery</b><small>See progress across your learning journey</small></div><span class="status">GROW</span></div>
+  </div>
+</div></section>
+<section class="quote"><div class="wrap"><blockquote>“The best use of AI in education is not to think <span>for students</span>, but to help students think <span>for themselves.</span>”</blockquote><p>THE IDEA BEHIND AI KYRO</p></div></section>
+<section class="section faq"><div class="wrap"><div class="section-head"><div class="eyebrow">A few things you may be wondering</div><h2>Questions, answered.</h2></div><div class="faq-list">
+  <div class="faq-item"><button class="faq-q" aria-expanded="false">Is AI KYRO just another chatbot? <span class="plus">＋</span></button><div class="faq-a">No. A general chatbot primarily responds to prompts. AI KYRO is organised around a learning journey: it introduces concepts, invites attempts, offers hints, checks understanding and supports revision.</div></div>
+  <div class="faq-item"><button class="faq-q" aria-expanded="false">Does AI KYRO give students answers? <span class="plus">＋</span></button><div class="faq-a">It can explain ideas and respond to questions, but the experience also uses think-first prompts, hints and checks to encourage learners to attempt and explain ideas themselves.</div></div>
+  <div class="faq-item"><button class="faq-q" aria-expanded="false">Who can use it? <span class="plus">＋</span></button><div class="faq-a">The experience is designed primarily for students and independent learners, with educators and institutions as important stakeholders in supporting and understanding learning.</div></div>
+  <div class="faq-item"><button class="faq-q" aria-expanded="false">Does it replace teachers? <span class="plus">＋</span></button><div class="faq-a">No. AI KYRO is a learning support tool. It is intended to complement teaching and learner effort, not replace the judgement, care or guidance of an educator.</div></div>
+</div></div></section>
+
+<section class="team-section" id="team"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">The people behind AI KYRO</div>
+    <h2>Built by Group 8.</h2>
+    <p>Created as a team project by the following members.</p>
+  </div>
+  <div class="team-label">GROUP 8</div>
+  <div class="team-grid">
+    <article class="team-card"><h3>Rajas Agarwal</h3><p>Roll No. 24B0073</p></article>
+    <article class="team-card"><h3>Nishil Seth Gupta</h3><p>Roll No. 24B0685</p></article>
+    <article class="team-card"><h3>Aman Jain</h3><p>Roll No. 24B0387</p></article>
+    <article class="team-card"><h3>Kasak Malhotra</h3><p>Roll No. 24B0418</p></article>
+  </div>
+</div></section>
+
+<section class="closing"><div class="wrap"><h2>Make room for curiosity. Make learning active again.</h2><p>Let AI support the journey — while the learner stays in the driver's seat.</p><a class="btn" href="#top">Back to the beginning ↑</a></div></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark">✳</span> AI KYRO</a><span>Designed to support active, reflective learning.</span><span>© 2026 AI KYRO</span></div></footer>
+<script>
+document.querySelectorAll('.faq-q').forEach(button=>button.addEventListener('click',()=>{const item=button.closest('.faq-item');const open=item.classList.toggle('open');button.setAttribute('aria-expanded',String(open));}));
+</script>
+</body>
+</html>
